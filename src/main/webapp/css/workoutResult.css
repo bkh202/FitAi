@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111827;
+    color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header{
+	width: 100%;
+    background-color: white;
+    color: #fefefe;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Align header and footer */
+ .footer {
+    width: 100%;
+    background-color: #1f2937;
+    color: #fefefe;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.result-container {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #facc15;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.exercise-card {
+    background-color: #1e293b;
+    border-left: 5px solid #facc15;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.exercise-info h3 {
+    color: #facc15;
+    margin-bottom: 0.5rem;
+}
+
+.exercise-info p {
+    margin: 0.4rem 0;
+    color: #d1d5db;
+}
+
+.error {
+    color: #f87171;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .exercise-card {
+        padding: 1rem;
+    }
+
+    .result-container {
+        padding: 1rem;
+    }
+}

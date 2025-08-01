@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+    background-color: #0f172a;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f1f5f9;
+    margin: 0;
+    padding: 0;
+}
+
+.result-container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    color: #f1f5f9;
+}
+
+h2, h3 {
+    color: #facc15; /* Yellow-400 */
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #1e293b;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #334155;
+    text-align: center;
+}
+
+.styled-table th {
+    background-color: #facc15; /* Yellow-400 */
+    color: #0f172a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.styled-table td {
+    color: #f1f5f9;
+}
+
+button {
+    background-color: #facc15; /* Yellow-400 */
+    border: none;
+    padding: 6px 12px;
+    margin: 0 2px;
+    border-radius: 5px;
+    color: #0f172a;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #eab308; /* Yellow-500 */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #334155;
+    margin: 2rem 0;
+}

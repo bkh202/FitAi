@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111827;
+    color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+.workout-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #facc15;
+}
+
+.exercise-card {
+    background-color: #1f2937;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    display: block;
+    border-bottom: 1px solid #374151;
+}
+
+.exercise-info {
+    padding: 1rem;
+}
+
+.exercise-info h3 {
+    color: #3b82f6;
+    margin-bottom: 0.5rem;
+}
+
+.exercise-info p {
+    margin: 0.3rem 0;
+    line-height: 1.5;
+}

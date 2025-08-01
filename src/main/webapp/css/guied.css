@@ -1,0 +1,110 @@
+@charset "UTF-8";
+body {
+  background-color: #111827;
+  color: #fef9c3;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center; /* <-- Center align everything */
+}
+
+h1, h2 {
+  color: #facc15;
+  margin-bottom: 1rem;
+}
+
+p.intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #e5e7eb;
+}
+
+ul.tips-list {
+  list-style-type: "✅ ";
+  text-align: left;
+  margin: auto;
+  max-width: 800px;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+  color: #fef9c3;
+}
+
+.diet-table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.diet-table th,
+.diet-table td {
+  border: 1px solid #374151;
+  padding: 0.75rem;
+  text-align: center;
+  color: #fef9c3;
+}
+
+.diet-table th {
+  background-color: #1f2937;
+  color: #facc15;
+}
+
+.superfoods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.superfood-card {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #fef9c3;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(250, 204, 21, 0.1);
+}
+
+.superfood-card img {
+  max-width: 100%;
+  border-radius: 6px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.video-section {
+  margin: 2rem auto;
+}
+
+video {
+  max-width: 100%;
+  border: 2px solid #facc15;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(250, 204, 21, 0.15);
+}
+
+.final-advice {
+  background-color: #1f2937;
+  border-left: 5px solid #facc15;
+  margin-top: 2rem;
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #fef9c3;
+  font-style: italic;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(250, 204, 21, 0.2);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}

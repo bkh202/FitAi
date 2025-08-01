@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* ======= Base Body Styling ======= */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111827; /* Dark background */
+    color: #f9fafb;
+    margin: 0;
+    padding: 80px 20px 60px; /* Top space for header, bottom for footer */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/* ======= Feature Card ======= */
+.feature-card {
+    background-color: #1f2937; /* Dark card background */
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    width: 280px;
+    height: 280px; /* Makes it square */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #374151;
+    padding: 20px;
+}
+
+.feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(255, 255, 0, 0.15);
+}
+
+/* ======= Card Content ======= */
+.feature-card h2 {
+    font-size: 1.3rem;
+    color: #facc15; /* Yellow heading */
+    margin: 10px 0 5px;
+}
+
+.feature-card p {
+    font-size: 0.95rem;
+    color: #d1d5db;
+    margin: 0;
+}
+
+.feature-card .icon {
+    font-size: 2.2rem;
+    color: #facc15;
+    margin-bottom: 10px;
+}
+
+/* ======= Header/Footer Fixed Style ======= */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #111827;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999; /* Ensure it's on top of all elements */
+}
+
+
+/* Align header and footer */
+ .footer {
+    width: 100%;
+    background-color: #1f2937;
+    color: #fefefe;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* ======= Responsive Behavior ======= */
+@media (max-width: 600px) {
+    .feature-card {
+        width: 90%;
+        height: auto;
+        padding: 25px 15px;
+    }
+}

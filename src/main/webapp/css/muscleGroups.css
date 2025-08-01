@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* ==== Base Reset & Body Styling ==== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111827; /* Dark background */
+    color: #f3f4f6;
+}
+
+/* ==== Container for all content ==== */
+.container {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+/* ==== Page Title ==== */
+.page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    color: #facc15; /* 🌟 Yellow heading */
+}
+
+/* ==== Grid for muscle group cards ==== */
+.muscle-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Card width increased */
+    gap: 2rem; /* More spacing between cards */
+    justify-items: center;
+    padding: 0 2rem;
+}
+
+/* ==== Individual Muscle Group Card ==== */
+.muscle-card {
+    background-color: #1f2937;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 180px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.muscle-card:hover {
+    transform: translateY(-8px);
+    background-color: #facc15; /* 🌟 Yellow on hover */
+}
+
+.muscle-card:hover p {
+    color: #111827; /* Text becomes dark on yellow */
+}
+
+/* ==== Muscle Group Image ==== */
+.muscle-card img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin-bottom: 0.8rem;
+}
+
+/* ==== Muscle Name Text ==== */
+.muscle-card p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+    color: #f9fafb;
+    transition: color 0.3s ease;
+}

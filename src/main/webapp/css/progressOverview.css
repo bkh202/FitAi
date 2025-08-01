@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+body {
+    background-color: #111827;
+    color: #fef9c3;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #facc15;
+    margin-top: 1.5rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+/* Progress Image Section */
+.progress-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.progress-section div {
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(250, 204, 21, 0.2);
+    max-width: 300px;
+    text-align: center;
+}
+
+.progress-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid #facc15;
+    box-shadow: 0 0 15px rgba(250, 204, 21, 0.4);
+}
+
+/* Chart Section */
+.chart-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #1f2937;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(250, 204, 21, 0.15);
+}
+
+/* Header/Footer Layout Fix */
+header, footer {
+    background-color: #1f2937;
+    color: #fef9c3;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 2px solid #facc15;
+}
+
+footer {
+    border-top: 2px solid #facc15;
+    border-bottom: none;
+    margin-top: 2rem;
+}
+.ai-box {
+  background-color: #1e1e1e;
+  color: #facc15;
+  padding: 1rem;
+  border-left: 4px solid #00ffaa;
+  border-radius: 8px;
+  font-family: 'Segoe UI', sans-serif;
+  white-space: pre-wrap;
+  margin-top: 1rem;
+}
+.ai-feedback-btn {
+  background-color: #facc15;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.ai-feedback-btn:hover {
+  background-color: #ffff00;
+}
+

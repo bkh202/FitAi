@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body {
+  background-color: #111827;
+  color: #f9fafb;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.supplement-container {
+  max-width: 850px;
+  margin: 3rem auto;
+  background-color: #1f2937;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+.supplement-container h2 {
+  margin-bottom: 2rem;
+  color: #facc15;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  color: #f9fafb;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #374151;
+  color: #f9fafb;
+}
+
+.btn {
+  padding: 0.8rem 1.6rem;
+  background-color: #facc15;
+  border: none;
+  color: #111827;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.result-box {
+  margin-top: 2rem;
+  background: #1f2937;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #f9fafb;
+}
+
+.supplement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.supplement-item {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  color: #f9fafb;
+}
+
+.supplement-item h4 {
+  margin: 0 0 0.5rem;
+  color: #facc15;
+  font-size: 1.4rem;
+}
+
+.supplement-item p {
+  margin: 8px 0;
+  color: #e5e7eb;
+}
+
+.supplement-item a {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.supplement-item a:hover {
+  text-decoration: underline;
+}
+
+progress {
+  accent-color: #facc15;
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.error {
+  color: #ef4444;
+  padding: 10px;
+  background: rgba(239, 68, 68, 0.1);
+  border-radius: 5px;
+  border: 1px solid #ef4444;
+}
+.spinner {
+  border: 5px solid #374151;
+  border-top: 5px solid #facc15;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.badge {
+  background-color: #facc15;
+  color: #111827;
+  padding: 2px 8px;
+  margin-left: 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.wishlist-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  border: none;
+  background-color: #3b82f6;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.wishlist-btn:hover {
+  background-color: #2563eb;
+}

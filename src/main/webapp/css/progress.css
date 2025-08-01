@@ -1,0 +1,131 @@
+@charset "UTF-8";
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111827;
+    color: #facc15;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #facc15;
+    margin-bottom: 20px;
+}
+
+.progress-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.progress-form input[type="date"],
+.progress-form input[type="number"],
+.progress-form input[type="file"],
+.progress-form textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #374151;
+    color: white;
+}
+
+.progress-form input[type="submit"] {
+    background-color: #facc15;
+    color: #111827;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.progress-form input[type="submit"]:hover {
+    background-color: #eab308;
+}
+
+.progress-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.progress-card {
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.progress-card img {
+    margin-top: 10px;
+    max-width: 150px;
+    border-radius: 8px;
+    border: 2px solid #facc15;
+}
+
+/* 🔃 Sort by Date Button */
+.sort-form {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.sort-btn {
+    background-color: #facc15;
+    color: #111827;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sort-btn:hover {
+    background-color: #eab308;
+}
+
+/* ✏️ Update & 🗑️ Delete Buttons */
+.action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.action-buttons form {
+    display: inline;
+    margin: 0;
+}
+
+.delete-btn, .edit-btn, .extra-link-btn {
+    background-color: #facc15;
+    color: #111827;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover,
+.edit-btn:hover,
+.extra-link-btn:hover {
+    background-color: #eab308;
+}

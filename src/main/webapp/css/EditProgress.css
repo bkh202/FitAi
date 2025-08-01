@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111827;
+    color: #facc15;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.progress-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.progress-form input[type="date"],
+.progress-form input[type="number"],
+.progress-form input[type="file"],
+.progress-form textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #374151;
+    color: white;
+}
+
+.progress-form input[type="submit"] {
+    background-color: #facc15;
+    color: #111827;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.progress-form input[type="submit"]:hover {
+    background-color: #eab308;
+}

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* File: /css/progressHistory.css */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #ffcc00;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background: #1e1e1e;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #444;
+    text-align: center;
+}
+
+th {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+img {
+    width: 80px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.btn {
+    padding: 5px 10px;
+    background: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ffd633;
+}

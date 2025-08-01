@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* home-style.css */
+
+body {
+    margin: 0;
+    background-color: #111827; /* Dark background */
+    font-family: 'Segoe UI', sans-serif;
+    color: #e5e7eb; /* Light gray text */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5rem 2rem 3rem;
+}
+
+.hero h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: #facc15; /* Yellow */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #cbd5e1; /* Soft gray-blue */
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Buttons */
+.cta-buttons {
+    margin-top: 2.5rem;
+}
+
+.cta-buttons a {
+    display: inline-block;
+    margin: 0 1rem;
+    padding: 0.9rem 2rem;
+    background-color: #facc15; /* Yellow */
+    color: #111827; /* Dark text */
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.cta-buttons a:hover {
+    background-color: #eab308; /* Darker yellow */
+    transform: translateY(-2px);
+}
+
+/* Sections */
+.sections {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section {
+    margin-bottom: 3rem;
+    background-color: #1f2937; /* Card-like dark gray */
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+}
+
+.section:hover {
+    transform: translateY(-4px);
+}
+
+.section h3 {
+    font-size: 1.8rem;
+    color: #facc15; /* Yellow */
+    margin-bottom: 1rem;
+}
+
+.section p {
+    color: #e5e7eb;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
